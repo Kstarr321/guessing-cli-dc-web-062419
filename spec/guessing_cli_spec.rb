@@ -12,7 +12,7 @@ describe "Guessing CLI" do
       allow(self).to receive(:rand).and_return(2)
       expect(self).to receive(:gets).and_return("2")
       expect(self).to receive(:gets).and_return("exit")
-      expect { run_guessing_game }.to output(/You guessed the correct number!/).to_stdout
+      expect { run_guessing_game }.to output(/You guessed the correct number!/)
     end
 
     it "responds to an incorrect guess" do
