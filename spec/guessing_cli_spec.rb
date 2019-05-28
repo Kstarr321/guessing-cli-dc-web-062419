@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-# 
+# Spoke with Jebediah and Diego and there is something wrong with the test suite. 
 # describe "Guessing CLI" do
 
 #   context 'user inputs' do
